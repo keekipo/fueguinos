@@ -11,7 +11,25 @@ body{
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 5px 5px;
-  grid-template-areas: ". ." ". ." ". ." ". ." ". .";
+  grid-template-rows: 1fr 1fr;
+  gap: 100px 0px;
+  grid-template-areas: "foto" "intro" "fotovideo" ". .";
+}
+
+header{
+    background-color: ##FBA85C
+    grid-column: span 7;
+}
+
+header .herramientas {
+      width: 7040px
+        margin: 1 auto;
+    background-color: #7B86EE;
+    text-transform: uppercase;
+    padding: 1   ex 2ex;
+    color:gray;
+    
+}
+header .herramientas nav li{
+    display: inline-block;
 }
