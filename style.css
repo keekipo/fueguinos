@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Piedra', cursive;
 } 
 
 .grid-container {
@@ -28,7 +29,7 @@ header .herramientas {
     text-transform: uppercase;
     padding: 1   ex 2ex;
     color:gray;
-    
+    grid-row-gap: 50px 0pc; 
 }
 header .herramientas nav li{
     display: inline-block;
