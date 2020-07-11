@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+} 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px 5px;
+  grid-template-areas: ". ." ". ." ". ." ". ." ". .";
+}
