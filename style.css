@@ -7,14 +7,21 @@
 
 body{
     font-family: 'Piedra', cursive;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 80px;
 } 
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 100px 0px;
+  gap: 50px 50px;
   grid-template-areas: "foto" "intro" "fotovideo" ". .";
+    margin: 35 auto ;
+
+    
 }
 
 header{
@@ -24,13 +31,33 @@ header{
 
 header .herramientas {
       width: 7040px
-        margin: 1 auto;
-    background-color: #7B86EE;
+        margin: 5 auto;
+    background-color: #323E7E;
     text-transform: uppercase;
-    padding: 1   ex 2ex;
+    padding: 1ex 2ex;
     color:gray;
-    grid-row-gap: 50px 0pc; 
+    grid-row-gap: 50px 30pc; 
 }
 header .herramientas nav li{
     display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background-color: #323E7E;
+    font-size: 10px;
+    padding: 2em;
+margin-left: 20
+}
+
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:20px;
+  color:black;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:2;
 }
