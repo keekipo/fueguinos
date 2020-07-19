@@ -9,51 +9,59 @@ body{
     font-size: 20px;
     font-family: 'Alegreya', serif;
     margin-top: 25px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
     margin-bottom: 80px;
     background-color: #151633
 } 
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 0fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 0r;
   gap: 50px 50px;
   grid-template-areas: "foto" "intro" "fotovideo" ". .";
     margin: 35 auto ;
-    color: white
-
+    color: white;
+  width: 85vw;
+  margin: 1em auto 0;
     
 }
 
 .videotutorial{
-    width: auto
+    width: 400px;
     grid-row: 7/8;
     grid-column: 2/4;
-    height: 35em;
+    height: 50em;
     margin-top: 5%;
     
 }
 
+.eltitulo{
+    width: 1000px;
+    color: white;
+    font-size: 5em;
+    margin: 0 auto;
+    padding: 0;
+
+}
 
 
 header{
-    background-color: #151633
+    background-color: #151633;
     grid-column: span 7;
 }
 
 
 
 header .herramientas {
-      width: 7040px
-        margin: 20 auto;
-    margin-right: 20 auto;
+      width: 0 auto;
+        margin: 15 auto;
     background-color: #151633;
     text-transform: uppercase;
-    padding: 10ex 2ex;
-    color:white;
-    grid-row-gap: 50px 30pc; 
+    padding: 4ex 2ex;
+    color: white;
+    row-gap: 30px 30pc; 
 }
 header .herramientas nav li{
     display: inline-block;
@@ -62,7 +70,7 @@ header .herramientas nav li{
 }
 
 .juegahora{
-    width30%;
+    width: 30%;
 }
 
 
