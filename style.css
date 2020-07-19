@@ -46,15 +46,6 @@ header .herramientas nav li{
     display: inline-block;
 }
 
-. territoriafectado {
-
-    grid-row: 2;
-    margin-right: 1em;
-}
-
-.territoriafectado>img {
-    width: 130%;
-}
 
 
 
