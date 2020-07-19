@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;800&display=swap');
 
 *{
     margin: 0;
@@ -6,11 +6,13 @@
 }
 
 body{
-    font-family: 'Piedra', cursive;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
     margin-top: 25px;
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 80px;
+    background-color: #151633
 } 
 
 .grid-container {
@@ -20,22 +22,24 @@ body{
   gap: 50px 50px;
   grid-template-areas: "foto" "intro" "fotovideo" ". .";
     margin: 35 auto ;
+    color: white
 
     
 }
 
 header{
-    background-color: ##FBA85C
+    background-color: #151633
     grid-column: span 7;
 }
 
 header .herramientas {
       width: 7040px
-        margin: 5 auto;
-    background-color: #323E7E;
+        margin: 20 auto;
+    margin-right: 20 auto;
+    background-color: #151633;
     text-transform: uppercase;
     padding: 1ex 2ex;
-    color:gray;
+    color:white;
     grid-row-gap: 50px 30pc; 
 }
 header .herramientas nav li{
@@ -43,7 +47,7 @@ header .herramientas nav li{
 }
 
 . territoriafectado {
-    grid-column: 2 / 4;
+
     grid-row: 2;
     margin-right: 1em;
 }
@@ -56,8 +60,9 @@ header .herramientas nav li{
 
 footer {
     text-align: center;
-    background-color: #323E7E;
-    font-size: 10px;
+    color: white;
+    background-color: #151633;
+    font-size: 20px;
     padding: 2em;
 margin-left: 20
 }
