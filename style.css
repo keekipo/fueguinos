@@ -38,12 +38,14 @@ header .herramientas {
     margin-right: 20 auto;
     background-color: #151633;
     text-transform: uppercase;
-    padding: 1ex 2ex;
+    padding: 10ex 2ex;
     color:white;
     grid-row-gap: 50px 30pc; 
 }
 header .herramientas nav li{
     display: inline-block;
+    padding:  1ex 3ex; 
+    font-size: 25
 }
 
 
