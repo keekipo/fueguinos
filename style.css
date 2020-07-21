@@ -84,6 +84,10 @@ footer {
 margin-left: 20
 }
 
+.footer, .footerinfo1, .footerinfo2 {
+    display: none;
+}
+
 .ir-arriba{
   display:none;
   background-repeat:no-repeat;
