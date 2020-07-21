@@ -100,7 +100,7 @@ margin-left: 20
         display: flex;
         grid-row: 2/3;
         grid-column: 2/3;
-        text-align: center;
+        text-align: left;
         padding-top: 0%;
         margin:5%;
         
