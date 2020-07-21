@@ -90,43 +90,6 @@ margin-left: 20
         
 }
 
- .redsocial{
-        width: 60%;
-        padding-right: 5%;
-      
-    }
-    
-    .logos{
-        display: flex;
-        grid-row: 2/3;
-        grid-column: 2/3;
-        text-align: left;
-        padding-top: 0%;
-        margin:5%;
-        
-    }
-    
-    .logos ul {
-        list-style: none;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
-    .logos ul li{
-        padding-bottom: 0;
-    }
-    .logosesc{
-        padding-top: 0;
-        width: 15%;
-    }
-    .logoscasio{
-        width: 50%;
-        padding-bottom: 2%;
-    }
-    
-
-}
-
-
 
 .ir-arriba{
   display:none;
